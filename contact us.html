@@ -4,37 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="image/icons8-home-40.png" type="icon/image">
+    <link rel="stylesheet" href="styles.css/styles.css" type="text">
+    <style>
+        body{
+            background-image: url(image/painted-grey-background-with-metal-texture_125540-779.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        form,label, h5{
+            font-size: larger;
+            font-weight: bold;
+            color: brown plum;
+        }
+        
+    </style>
 </head>
 <body>
 
     <form>
         <Strong><label for="Fullname">Firstname:</label></Strong><br>
-        <input type="text" name="Firstname" size="65" placeholder="Write your Firstname">
+        <input type="text" name="Firstname" size="85" placeholder="Write your Firstname">
         <br />
 
-        <strong><label for="LastName">LastName</label></strong><br>
-        <input type="text" name="Lastname" size="65" placeholder="write your LastName">
+        <strong><label for="LastName">Lastname</label></strong><br>
+        <input type="text" name="Lastname" size="85" placeholder="write your Lastname">
         <br />
 
         <strong><label for="Email Address">Email Address:</label></strong><br>
-        <input type="text" name="Email Address" size="65" placeholder="Email Address">
+        <input type="text" name="Email Address" size="85" placeholder="Email Address">
         <br />
 
         <strong><label for="Phone Number">Phone Number</label></strong><br>
-        <input type="number" name="Phone Number" size="65" placeholder="Phone Number">
+        <input type="text" name="Phone Number" size="85" placeholder="Phone Number">
         <br />
     </form><br>
 
-        <strong><label for="Types">Types:</label></strong>
+        <strong><label for="Types">Types of course:</label></strong>
         <select>
-            <option value="Front-end">Front-end Developer</option>
-            <option value="Back-End">Back-end Developer</option>
-            <option value="Web developer">Web Developer</option>
-        </select> <br>
-        <br />
-    <h5><strong><label for="Message">Message us:</label></strong></h5><textarea name="Drop your comment" cols="50" rows="10">Drop your comment</textarea><br/>
+            <option value="computer science">Computer Science</option>
+            <option value="Data">Data</option>
+            <option value="Design">Design</option>
+            <option value="Marketing">Marketing</option>
+        </select> <br/>
+        
+    <h5><strong><label for="Message">Message us:</label></strong></h5><textarea name="Drop" cols="80" rows="10"></textarea><br/>
 
-    <input type="submit">
+    <input type="submit" >
 
 </body>
 </html>
